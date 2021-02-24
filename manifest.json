@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "send to translate",
+  "description": "create context menu item - to send to google translate",
+  "version": "0.1",
+  "background": {
+    "scripts": ["addon.js"]
+  },
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "permissions": ["contextMenus"]
+}
